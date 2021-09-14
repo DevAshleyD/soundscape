@@ -1,0 +1,20 @@
+@import '../settings.scss';
+
+#song-info-panel {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#song-info-panel p {
+    display: inline-block;
+}
+
+.social-link{
+    display: inline-block;
+}
+
+.padded-row {
+    margin-top: vh(4);
+}
